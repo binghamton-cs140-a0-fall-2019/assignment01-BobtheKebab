@@ -50,3 +50,10 @@ false
 true
 false
 true
+
+TESTS FOR StreetUSAddress.java:
+a
+b
+NYC, NY 13000
+c
+Chicago, IL 11100
