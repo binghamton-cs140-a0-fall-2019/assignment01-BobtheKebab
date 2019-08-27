@@ -10,8 +10,7 @@ public class ComputerOwnerTester {
 		
 		
 		
-		System.out.println(a);
-		System.out.println(b);
+	
 		
 		try(var output =new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
@@ -23,8 +22,6 @@ public class ComputerOwnerTester {
 			
 			
 			
-			output.println(a2);
-			output.println(b2);
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
