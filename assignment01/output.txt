@@ -1,36 +1,9 @@
 
 TESTS FOR Computer.java:
-
-TESTS FOR Computer.java:
 Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 
 Acer, b, 8GB Memory, 2.0TB Solid State Drive, Price: $800.00 
 Apple, c, 8GB Memory, 500GB Hard Drive, Price: $2000.00 
 HP, d, 16GB Memory, 800GB Solid State Drive, Price: $1500.00 
-
-TESTS FOR Computer.java:
-Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 
-Acer, b, 8GB Memory, 2.0TB Solid State Drive, Price: $800.00 
-Apple, c, 8GB Memory, 500GB Hard Drive, Price: $2000.00 
-HP, d, 16GB Memory, 800GB Solid State Drive, Price: $1500.00 
-
-TESTS FOR DateAndPlaceOfBirth.java:
-Date and place of birth: 2000-06-15, NYC, NY, USA
-Date and place of birth: 2000-06-15, LA, CA, USA
-Date and place of birth: 1990-07-11, Chicago, IL, USA
-Date and place of birth: 1985-07-11, Berlin, Germany
-Date and place of birth: 1970-08-20, Paris, France
-false
-true
-false
-true
-false
-false
-true
-false
-false
-false
-false
-false
 
 TESTS FOR DateAndPlaceOfBirth.java:
 Date and place of birth: 2000-06-15, NYC, NY, USA
@@ -59,17 +32,11 @@ c
 Chicago, IL 11100
 
 TESTS FOR Person.java:
-
-TESTS FOR Person.java:
 John Doe (777-77-7777),
 Date and place of birth: Date and place of birth: 2000-06-15, NYC, NY, USA
 a
 b
 NYC, NY 13000
-
-TESTS FOR ComputerOwner.java:
-
-TESTS FOR ComputerOwner.java:
 
 TESTS FOR ComputerOwner.java:
 Computer List, Owner: John Doe (777-77-7777),
@@ -84,3 +51,8 @@ a
 b
 NYC, NY 13000
 Computers: [Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $0.00 , Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 ]
+
+TESTS FOR SimpleDate.java:
+false
+true
+true

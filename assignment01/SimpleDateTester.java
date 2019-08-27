@@ -8,11 +8,13 @@ public class SimpleDateTester {
 	
 	public static void main(String[] args) {
 		
-		StreetUSAddress a = new StreetUSAddress("a", "b", "NYC", "NY", "13000");
-		StreetUSAddress b = new StreetUSAddress("c", "", "Chicago", "IL", "11100");
+		SimpleDate a = SimpleDate.of(2000, 8, 16);
+		SimpleDate b = SimpleDate.of(2000, 8, 15);
+		SimpleDate c = SimpleDate.of(1900, 8, 15);
 		
-		System.out.println(a);
-		System.out.println(b);
+		System.out.println(a.before(b)); // False
+		System.out.println(b.before(a)); // True
+		System.out.println(c.before(b)); // True
 		
 		try(var output =new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
@@ -22,11 +24,14 @@ public class SimpleDateTester {
 			// and replace every System.out.print or System.out.println
 			// by output.print or output.println
 			
-			StreetUSAddress a2 = new StreetUSAddress("a", "b", "NYC", "NY", "13000");
-			StreetUSAddress b2 = new StreetUSAddress("c", "", "Chicago", "IL", "11100");
+			SimpleDate a2 = SimpleDate.of(2000, 8, 16);
+			SimpleDate b2 = SimpleDate.of(2000, 8, 15);
+			SimpleDate c2 = SimpleDate.of(1900, 8, 15);
 			
-			output.println(a2);
-			output.println(b2);
+			output.println(a2.before(b2)); // False
+			output.println(b2.before(a2)); // True
+			output.println(c2.before(b2)); // True
+			
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
