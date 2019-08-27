@@ -1,0 +1,14 @@
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 
+Acer, b, 8GB Memory, 2.0TB Solid State Drive, Price: $800.00 
+Apple, c, 8GB Memory, 500GB Hard Drive, Price: $2000.00 
+HP, d, 16GB Memory, 800GB Solid State Drive, Price: $1500.00 
+
+TESTS FOR Computer.java:
+Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 
+Acer, b, 8GB Memory, 2.0TB Solid State Drive, Price: $800.00 
+Apple, c, 8GB Memory, 500GB Hard Drive, Price: $2000.00 
+HP, d, 16GB Memory, 800GB Solid State Drive, Price: $1500.00 

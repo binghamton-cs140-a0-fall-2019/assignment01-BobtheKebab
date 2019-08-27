@@ -23,13 +23,24 @@ public class ComputerTester {
 		System.out.println(m);
 		System.out.println(p);
 	
-		try(var output =new PrintWriter(new FileOutputStream(
+		try(var output = new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
 			output.println("\nTESTS FOR Computer.java:");
 
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
+		
+			Computer c2 = new Computer("Dell", "a", 16, 4000, false, 1000.0);
+			Computer o2 = new Computer("Acer", "b", 8, 2000, true, 800.0);
+			Computer m2 = new Computer("Apple", "c", 8, 500, false, 2000.0);
+			Computer p2 = new Computer("HP", "d", 16, 800, true, 1500.0);
+		
+			output.println(c2);
+			output.println(o2);
+			output.println(m2);
+			output.println(p2);
+		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
