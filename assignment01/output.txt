@@ -66,3 +66,21 @@ Date and place of birth: Date and place of birth: 2000-06-15, NYC, NY, USA
 a
 b
 NYC, NY 13000
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: John Doe (777-77-7777),
+Date and place of birth: Date and place of birth: 2000-06-15, NYC, NY, USA
+a
+b
+NYC, NY 13000
+Computers: [Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $0.00 , Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 , Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $2000.00 , Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $3000.00 ]
+Computer List, Owner: John Doe (777-77-7777),
+Date and place of birth: Date and place of birth: 2000-06-15, NYC, NY, USA
+a
+b
+NYC, NY 13000
+Computers: [Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $0.00 , Dell, a, 16GB Memory, 4.0TB Hard Drive, Price: $1000.00 ]
